@@ -24,5 +24,5 @@ In this repository I performed EDA on Research Problems: Model to predict the Be
 16. Family_mem_with_ASD                                 
 17. Who_completed_the_test                             
 
-The entire code is written in Python 
+The entire code is written in Python and is easy to use. 
 
