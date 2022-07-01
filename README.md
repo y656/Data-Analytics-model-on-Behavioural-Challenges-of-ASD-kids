@@ -24,7 +24,7 @@ In this repository I performed EDA on Research Problems: Model to predict the Be
 16. Family_mem_with_ASD                                 
 17. Who_completed_the_test                             
 
-##Results and observations:
+## Results and observations:
 
 After performing EDA I have explored different kinds of classification algorithms and compared the results obtained by them. 
 The algorithms which I have used and their score after 10Fold stratified split are:
