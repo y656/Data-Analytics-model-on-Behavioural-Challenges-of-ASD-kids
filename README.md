@@ -36,6 +36,12 @@ The algorithms which I have used and their score after 10Fold stratified split a
 6. Gradient Boosting(98.54%)
 7. XGboost classifier(98.3%)
 
+We can see that Random Forest Classifier performed the best among all other classification algorithms getting an accuracy of over 100 percentage followed by Kernel Support Vector Machine with accuracy of 99.5%.
+
+Adaboost Classifier and Logistic regression performed the worst among all other algorithms with accuracies of 95.6% and 97.3% respectively.
+
+Other algorithms performed decently with score between(97.3 -98.3)percentage
+
 As Random Forest Classifier starts by taking feature importance and splits into branches, I have observed that through criterion:'entropy' for splitting
 Qchat_10_Score feature has got the highest importance and contributes more in deciding the child develops Autism spectrum disorder in future. 
 Children with more Qchat_10_Score got more probability in developing ASD_traits. 
