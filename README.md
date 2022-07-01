@@ -24,5 +24,18 @@ In this repository I performed EDA on Research Problems: Model to predict the Be
 16. Family_mem_with_ASD                                 
 17. Who_completed_the_test                             
 
-The entire code is written in Python and is easy to use. 
+
+After performing EDA I have explored different kinds of classification algorithms and compared the results obtained by them. 
+The algorithms which I have used and their score after 10Fold stratified split are:
+1. Logistic Regression (96.7%)
+2. Decision trees(97.34%)
+3. Support Vector Machines(99.57%)
+4. Adaboost Classifier(95.6%)
+5. Random Forest classifier(100%)
+6. Gradient Boosting(98.54%)
+7. XGboost classifier(98.3%)
+
+As Random Forest Classifier starts by taking feature importance and splits into branches, I have observed that through criterion:'entropy' for splitting
+Qchat_10_Score feature has got the highest importance and contributes more in deciding the child develops Autism spectrum disorder in future. 
+Children with more Qchat_10_Score got more probability in developing ASD_traits. 
 
